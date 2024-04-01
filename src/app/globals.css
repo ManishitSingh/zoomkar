@@ -59,6 +59,10 @@
   color: white;
 }
 
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+
 .cl-logoBox {
   height: 40px;
 }
