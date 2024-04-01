@@ -8,7 +8,6 @@ import Image from "next/image";
 
 const Sidebar = () => {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <section className="sticky left-0 top-0 flex flex-col h-screen w-fit justify-between bg-dark-1 p-6 pt-28 text-white max-sm:hidden lg:w-[246px]">
       <div className="flex flex-1 flex-col gap-6">
