@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Zoomkar💻📞
 
-First, run the development server:
+Welcome to ZoomKar, a comprehensive meeting management platform built with TypeScript, Next.js, ShadCn, Tailwind CSS, getStream, and Clerk.
+
+
+## Features
+
+**Authentication & Authorization**: Implemented authentication and authorization features using Clerk for secure login and access control. 🔐
+
+**Meeting Management**: Developed comprehensive meeting controls, empowering participants with full control over meeting aspects such as recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, and participant management, facilitating smooth collaboration. 📹🎤👥
+
+**User Experience & Accessibility**: Designed a responsive platform with a user-centric approach, ensuring optimal user experience across devices through responsive design principles, while maintaining real-time functionality and data integrity for seamless and secure interactions. 📱💻
+## Tech Stack
+
+**Frontend:** 
+Framework: Next.js
+
+UI Libraries: Tailwind CSS
+
+Real-Time Functionality: getStream
+
+Authentication & Authorization: Clerk
+
+
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/MoneyAsk/zoomkar.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd my-project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
